@@ -1,0 +1,7 @@
+C:\Users\Marius\Dropbox\Projects\C#\MatheProjekt\MatheProjekt\bin\Debug\MatheProjekt.exe.config
+C:\Users\Marius\Dropbox\Projects\C#\MatheProjekt\MatheProjekt\bin\Debug\MatheProjekt.exe
+C:\Users\Marius\Dropbox\Projects\C#\MatheProjekt\MatheProjekt\bin\Debug\MatheProjekt.pdb
+C:\Users\Marius\Dropbox\Projects\C#\MatheProjekt\MatheProjekt\obj\Debug\MatheProjekt.csprojResolveAssemblyReference.cache
+C:\Users\Marius\Dropbox\Projects\C#\MatheProjekt\MatheProjekt\obj\Debug\MatheProjekt.csproj.CoreCompileInputs.cache
+C:\Users\Marius\Dropbox\Projects\C#\MatheProjekt\MatheProjekt\obj\Debug\MatheProjekt.exe
+C:\Users\Marius\Dropbox\Projects\C#\MatheProjekt\MatheProjekt\obj\Debug\MatheProjekt.pdb
