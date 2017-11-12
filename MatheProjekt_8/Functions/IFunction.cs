@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace MatheProjekt.MatheProjekt_8.Functions
 {
+    /// <summary>
+    /// Interface for functions.
+    /// </summary>
     interface IFunction
     {
         double GetY(double input, bool deriv = false);

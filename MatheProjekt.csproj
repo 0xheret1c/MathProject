@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MatheProjekt_8\Functions\Gauss.cs" />
     <Compile Include="MatheProjekt_8\Functions\IFunction.cs" />
     <Compile Include="MatheProjekt_8\Integrate.cs" />
     <Compile Include="Program.cs" />

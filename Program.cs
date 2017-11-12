@@ -12,15 +12,30 @@ namespace MatheProjekt
     {
         static void Main(string[] args)
         {
-            double samplingRate = 0.00000001;
-            while (samplingRate < 1)
+            double samplingRate = 1;
+            int index = 1;
+            while (true)
             {
+                switch (index)
+                {
+                    case 1:
+                    case 2:
+                    case 3:
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        break;
+                    case 4:
+                    case 5:
+                    case 6:
+                        Console.ForegroundColor = ConsoleColor.Yellow;
+                        break;
+                    default:
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        break;
+                }
                 double dx = Integrate.IntegrateFunction(0, 2, samplingRate, new Sigmoid());
-                Console.WriteLine("Sigmoid: " + dx + " Sampling Rate: " + samplingRate);
-                samplingRate *= 10;
+                Console.WriteLine("├ #" + index++ + " ┼ Sigmoid integral: " + dx + " on sampling rate: " + samplingRate);
+                samplingRate /= 10;
             } 
-
-            Console.ReadKey();
         }
     }
 }

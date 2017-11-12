@@ -14,14 +14,11 @@ namespace MatheProjekt.MatheProjekt_8.Functions
     class Sigmoid : IFunction
     {
         /// <summary>
-        /// Returns the y value for the given x value.
+        /// Sigmoid function.
         /// </summary>
-        /// <param name="input">The x value.</param>
-        /// <param name="deriv">
-        /// Specifies if the derivate of the function
-        /// will be used.
-        /// </param>
-        /// <returns>The y value for the given x value.</returns>
+        /// <param name="input"> The x input.</param>
+        /// <param name="deriv"> Use derivate?</param>
+        /// <returns>Returns the y value of a given x value.</returns>
         public double GetY(double input, bool deriv = false)
         {
             double y = 0;
